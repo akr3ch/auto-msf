@@ -3,7 +3,7 @@
 auto-msf is a simple automated metasploit based tool.
 you just need some basic knowladge of metasploit to use the tool to save your expensive time. 
 
-###Installation
+##Installation
 
 ```
 git clone https://github.com/a-k-r-e-c-h/auto-msf
