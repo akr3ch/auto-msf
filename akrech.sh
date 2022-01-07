@@ -27,7 +27,7 @@ wlan0=`ip -4 addr show wlan0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'`
 clear;
 
 #banner
-echo -e "👾\e[40;38;5;82mgithub: akr3ch${S} 📩\e[30;48;5;82mmail: akrech@protonmail.com${S} 🦇\e[40;38;5;82mtweet: a_k_r_e_c_H${S}"
+echo -e "👾\e[40;38;5;82mgithub: akr3ch${S}   📩\e[30;48;5;82mmail: akrech@protonmail.com${S}   🦇\e[40;38;5;82mtweet: a_k_r_e_c_H${S}"
 for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m######${S}" ; done ; echo
 echo -e "\e[31m<==============================${S}\e[1m\e[5mHAPPY-HUNTING${S}\e[31m===========================>${S}"
 for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m######${S}" ; done ; echo 
