@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#color-foregground
+#color
 r='\e[31m'
 lr='\e[1;31m'
 g='\e[32m'
@@ -105,8 +105,8 @@ fi
 sleep 1
 echo -e "${cyan}[*]press ${ul}(CTRL + C)${S} ${cyan}or re-run akrech, if you want any change in modules...${S}"
 sleep 1
-echo -e "${cyan}[!]${S}\e[41makrech${S}${cyan} is going to clear your terminal, for a clear view... ${S}"
-sleep 1
+echo -e "${cyan}[!]${S}\e[41m akrech${S} ${cyan}is going to clear your terminal, for a clear view... ${S}"
+
 
 #starts metasploit with collected commands
 msfconsole -q -x "
