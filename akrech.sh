@@ -70,7 +70,7 @@ echo -ne $g" └─────► ${S}" ;
 read IP
 fi
 
-#colllect lport
+#collect lport
 echo -e ${g}" ┌─[${r}ak${B}r${S}${r}ecH${g}]────────────[${b}LPORT${g}]${S} ${g}[default: 4444]\n │\t\t\t       [press 'ENTER' to auto select]"
 echo -ne $g" └─────► ${S}" ;        
 read PORT
