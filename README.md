@@ -11,9 +11,6 @@ git clone https://github.com/a-k-r-e-c-h/auto-msf
 ```
 cd auto-msf
 ```
-```
-chmod +x install.sh
-```
 
 ```
 ./install.sh
